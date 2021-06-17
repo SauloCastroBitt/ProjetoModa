@@ -1,0 +1,101 @@
+body {
+  font-family: tahoma, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#principal {
+  width: 1024px;
+  margin: 20px auto;
+  position: relative;
+}
+.header-top {
+  height: 50px;
+  background: #162028;
+}
+.logotipo {
+  margin: 5px 0 0 135px;
+}
+.header-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+}
+.header-nav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 0 15px 0 0;
+  padding: 13px;
+}
+.header-nav a {
+  color: #425564;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.portifolio {
+  padding: 50px 100px;
+  text-align: center;
+}
+.portifolio h1 {
+  font-size: 36px;
+  color: #252525;
+}
+.portifolio p {
+  font-size: 16px;
+  line-height: 2;
+  color: #555;
+}
+.gallery {
+  color: #555;
+  padding: 0 100px 50px 100px;
+  overflow: auto; /*colocar as imagens dentro da div*/
+}
+.gallery-card {
+  width: 32%;
+  float: left;
+  text-align: center;
+}
+.gallery-title {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 16px;
+  font-weight: bold; /*largura da fonte*/
+}
+.about {
+  background-color: #003d52;
+  color: white;
+  background-image: url(./imagens/bg_detalhe.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.about h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: normal;
+  margin-left: 40px;
+  padding: 40px;
+}
+.about p {
+  line-height: 1.5;
+  width: 70%;
+  margin-left: 40px;
+  padding: 20px;
+}
+#contact {
+  margin: 50px 0;
+}
+#contact address {
+  color: #143;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+}
